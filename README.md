@@ -1,22 +1,32 @@
-# KAZE — Multi Page Store
+# KAZE — GitHub Ready Store
 
-GitHub Pages ready static website for KAZE, Vettichira.
+A mobile-first static storefront for **KAZE** (Vettichira), focused on shoes, watches and other products.
 
-## Pages
-- `index.html` — Home
-- `shoes.html` — Shoes collection
-- `watches.html` — Watches collection
-- `others.html` — Other Products
-- `about.html` — About
-- `contact.html` — Contact
+## Included
+- Responsive e-commerce layout
+- Highly animated hero, cards, buttons and scroll reveals
+- Product size + colour selection
+- Wishlist and localStorage cart
+- Search and category filters
+- WhatsApp checkout with delivery address
+- Instagram follow buttons linking to **@kaze.storez**
+- Facebook + contact links
+- No backend required
 
-## Add products easily
-Edit `products.js`. Each product has name, category, sub-category, prices, sizes, colours and image path.
-Put the image inside `assets/` and use a relative path such as `assets/my-shoe.jpg`.
+## Upload to GitHub Pages
+1. Extract this ZIP.
+2. Upload all files/folders to a GitHub repository.
+3. Open **Settings → Pages**.
+4. Choose **Deploy from a branch**, branch `main`, folder `/ (root)`.
+5. Save and open the generated Pages URL.
 
-## Instagram
-`@kaze.storez` → https://instagram.com/kaze.storez
+## Replace product images
+Put your own JPG/PNG images in `assets/` and update the image paths in `script.js`.
 
-## GitHub Pages
-Upload all files/folders to the repository root. Do not upload only `index.html`; the `assets/` folder and `products.js`, `script.js`, `style.css` are required.
-Then enable GitHub Pages from Settings → Pages → Deploy from branch → main → root.
+## Store details
+- Phone / WhatsApp: 9946375868
+- Email: kjisal16@gmail.com
+- Location: Vettichira
+- Instagram: @kaze.storez
+- Facebook: kazestorez
+- COD: No
