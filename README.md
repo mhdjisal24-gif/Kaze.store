@@ -1,46 +1,22 @@
-# CASE STORE
+# KAZE — Multi Page Store
 
-A minimal, mobile-friendly online store for shoes, watches and accessories.
+GitHub Pages ready static website for KAZE, Vettichira.
 
-## Features
-- Product grid and category filters
-- Search
-- Shopping cart
-- Customer checkout form
-- One-click WhatsApp ordering with the complete order details
-- Responsive mobile/desktop design
-- No database required for the basic WhatsApp-order workflow
+## Pages
+- `index.html` — Home
+- `shoes.html` — Shoes collection
+- `watches.html` — Watches collection
+- `others.html` — Other Products
+- `about.html` — About
+- `contact.html` — Contact
 
-## Run locally
+## Add products easily
+Edit `products.js`. Each product has name, category, sub-category, prices, sizes, colours and image path.
+Put the image inside `assets/` and use a relative path such as `assets/my-shoe.jpg`.
 
-```bash
-npm install
-npm run dev
-```
+## Instagram
+`@kaze.storez` → https://instagram.com/kaze.storez
 
-Then open the local Vite URL.
-
-## Change the WhatsApp number
-
-Open `src/main.jsx` and change:
-
-```js
-const WHATSAPP_NUMBER = "919876543210";
-```
-
-Use your full WhatsApp number with country code, without `+`, spaces or dashes.
-
-Example for an Indian number:
-`919876543210`
-
-## Add your own products
-
-Edit the `products` array in `src/main.jsx`.
-
-For production, replace the demo Unsplash image URLs with your own product images.
-
-## Deploy to Vercel
-
-Push this folder to GitHub, import the repository into Vercel, and use the default Vite build settings:
-- Build command: `npm run build`
-- Output directory: `dist`
+## GitHub Pages
+Upload all files/folders to the repository root. Do not upload only `index.html`; the `assets/` folder and `products.js`, `script.js`, `style.css` are required.
+Then enable GitHub Pages from Settings → Pages → Deploy from branch → main → root.
